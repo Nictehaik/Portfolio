@@ -2821,7 +2821,8 @@ strong {
   }
 
   .container-9 {
-    padding-left: 0px;
+    padding-right: 20px;
+    padding-left: 20px;
   }
 
   .paragraph-9 {
@@ -2993,6 +2994,13 @@ strong {
     margin-right: 20px;
     margin-left: 20px;
     grid-column-gap: 0px;
+    grid-template-areas: "."
+      "Area"
+      "Area";
+    -ms-grid-columns: 1.25fr;
+    grid-template-columns: 1.25fr;
+    -ms-grid-rows: auto auto auto auto;
+    grid-template-rows: auto auto auto auto;
   }
 
   .image-26 {
@@ -3017,6 +3025,11 @@ strong {
     border-style: solid;
     border-width: 1px;
     border-color: #000;
+  }
+
+  .container-32 {
+    padding-right: 20px;
+    padding-left: 20px;
   }
 
   .div-block-140 {
@@ -3156,20 +3169,21 @@ strong {
     margin-top: 0px;
     margin-bottom: 0px;
     padding-top: 20px;
-    padding-bottom: 0px;
-    padding-left: 0px;
+    padding-bottom: 20px;
+    padding-left: 20px;
     -webkit-box-orient: vertical;
     -webkit-box-direction: normal;
     -webkit-flex-direction: column;
     -ms-flex-direction: column;
     flex-direction: column;
+    justify-items: center;
     grid-auto-columns: 1fr;
     grid-column-gap: 16px;
     grid-row-gap: 16px;
-    -ms-grid-columns: 1fr 1fr;
-    grid-template-columns: 1fr 1fr;
-    -ms-grid-rows: auto auto;
-    grid-template-rows: auto auto;
+    -ms-grid-columns: 1fr;
+    grid-template-columns: 1fr;
+    -ms-grid-rows: auto auto auto;
+    grid-template-rows: auto auto auto;
     color: #000;
   }
 
@@ -3628,7 +3642,7 @@ strong {
 
   .heading-73 {
     left: 0px;
-    margin-bottom: 50px;
+    margin-bottom: 20px;
   }
 
   .div-block-83 {
