@@ -131,6 +131,8 @@ strong {
 }
 
 .button {
+  position: relative;
+  top: -104px;
   display: -webkit-box;
   display: -webkit-flex;
   display: -ms-flexbox;
@@ -315,7 +317,7 @@ strong {
   grid-template-columns: 1fr 1fr 1fr;
   -ms-grid-rows: auto;
   grid-template-rows: auto;
-  background-color: #000;
+  background-color: transparent;
   -webkit-transform: translate(0px, 0px);
   -ms-transform: translate(0px, 0px);
   transform: translate(0px, 0px);
@@ -394,10 +396,18 @@ strong {
 }
 
 .container-9 {
+  position: static;
+  top: 0px;
   display: -webkit-box;
   display: -webkit-flex;
   display: -ms-flexbox;
   display: flex;
+  margin-bottom: 0px;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+  -webkit-flex-direction: column;
+  -ms-flex-direction: column;
+  flex-direction: column;
   -webkit-box-pack: start;
   -webkit-justify-content: flex-start;
   -ms-flex-pack: start;
@@ -657,8 +667,8 @@ strong {
   margin-top: 0px;
   margin-right: 0px;
   margin-left: 0px;
-  padding-top: 20px;
-  padding-bottom: 20px;
+  padding-top: 0px;
+  padding-bottom: 0px;
   color: #fff;
   line-height: 27px;
 }
@@ -901,6 +911,7 @@ strong {
   display: -webkit-flex;
   display: -ms-flexbox;
   display: flex;
+  margin-bottom: 20px;
   -webkit-box-orient: vertical;
   -webkit-box-direction: normal;
   -webkit-flex-direction: column;
@@ -1155,6 +1166,9 @@ strong {
 }
 
 .heading-73 {
+  position: relative;
+  left: 0px;
+  top: 0px;
   margin-bottom: 40px;
   padding-right: 0px;
   padding-left: 0px;
@@ -1676,7 +1690,7 @@ strong {
   margin-bottom: 0px;
   padding-top: 10px;
   padding-bottom: 20px;
-  color: #fff;
+  color: #6868ac;
 }
 
 .div-block-109 {
@@ -2199,8 +2213,9 @@ strong {
 
 .heading-97 {
   max-width: none;
+  margin-top: 10px;
   margin-bottom: 0px;
-  color: #fff;
+  color: #03f08d;
 }
 
 .text-block-44 {
@@ -2469,6 +2484,137 @@ strong {
   background-image: url('../images/Mask-Group4.png');
   background-position: 0px 0px;
   background-size: auto;
+}
+
+.div-block-134 {
+  position: relative;
+  left: 0px;
+  top: 0px;
+  width: 400px;
+  height: 300px;
+  margin-top: 60px;
+  border-radius: 500px;
+  background-color: #03f08d;
+  -webkit-filter: blur(150px);
+  filter: blur(150px);
+}
+
+.div-block-135 {
+  position: relative;
+}
+
+.div-block-136 {
+  position: relative;
+  top: 0px;
+  right: 0px;
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  width: 400px;
+  height: 300px;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+  -webkit-flex-direction: column;
+  -ms-flex-direction: column;
+  flex-direction: column;
+  -webkit-box-pack: start;
+  -webkit-justify-content: flex-start;
+  -ms-flex-pack: start;
+  justify-content: flex-start;
+  -webkit-box-align: end;
+  -webkit-align-items: flex-end;
+  -ms-flex-align: end;
+  align-items: flex-end;
+  border-radius: 20px;
+  background-color: #6868ac;
+  -webkit-filter: blur(80px);
+  filter: blur(80px);
+}
+
+.div-block-137 {
+  position: relative;
+  top: -148px;
+  background-color: #6868ac;
+  -webkit-filter: blur(100px);
+  filter: blur(100px);
+}
+
+.div-block-138 {
+  margin-bottom: 40px;
+}
+
+.heading-105 {
+  margin-bottom: 40px;
+  color: #03f08d;
+}
+
+.heading-106 {
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  max-width: none;
+  -webkit-box-orient: horizontal;
+  -webkit-box-direction: normal;
+  -webkit-flex-direction: row;
+  -ms-flex-direction: row;
+  flex-direction: row;
+  -webkit-box-pack: justify;
+  -webkit-justify-content: space-between;
+  -ms-flex-pack: justify;
+  justify-content: space-between;
+  -webkit-box-align: stretch;
+  -webkit-align-items: stretch;
+  -ms-flex-align: stretch;
+  align-items: stretch;
+  color: #03f08d;
+}
+
+.grid-48 {
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  width: 700px;
+  margin-bottom: 60px;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+  -webkit-flex-direction: column;
+  -ms-flex-direction: column;
+  flex-direction: column;
+  -webkit-box-align: center;
+  -webkit-align-items: center;
+  -ms-flex-align: center;
+  align-items: center;
+  -ms-grid-columns: 1fr 1fr 1fr 1fr 1fr;
+  grid-template-columns: 1fr 1fr 1fr 1fr 1fr;
+}
+
+.div-block-139 {
+  height: 1px;
+  margin-bottom: 0px;
+  background-color: #fff;
+}
+
+.heading-107 {
+  margin-top: 10px;
+  color: #6868ac;
+}
+
+.text-block-55 {
+  color: #fff;
+}
+
+.div-block-140 {
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+  -webkit-justify-content: center;
+  -ms-flex-pack: center;
+  justify-content: center;
 }
 
 @media screen and (max-width: 991px) {
@@ -2960,11 +3106,25 @@ strong {
   }
 
   .container-9 {
+    display: -ms-grid;
+    display: grid;
     margin-top: 0px;
     margin-bottom: 0px;
     padding-top: 20px;
     padding-bottom: 0px;
     padding-left: 0px;
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+    -webkit-flex-direction: column;
+    -ms-flex-direction: column;
+    flex-direction: column;
+    grid-auto-columns: 1fr;
+    grid-column-gap: 16px;
+    grid-row-gap: 16px;
+    -ms-grid-columns: 1fr 1fr;
+    grid-template-columns: 1fr 1fr;
+    -ms-grid-rows: auto auto;
+    grid-template-rows: auto auto;
     color: #000;
   }
 
@@ -3422,6 +3582,7 @@ strong {
   }
 
   .heading-73 {
+    left: 0px;
     margin-bottom: 50px;
   }
 
@@ -3986,18 +4147,19 @@ strong {
   grid-column-start: span 1;
   -ms-grid-column-span: 1;
   grid-column-end: span 1;
-  -ms-grid-row-align: start;
-  align-self: start;
+  -ms-grid-row-align: center;
+  align-self: center;
 }
 
-#w-node-d6121f66-e07d-88d3-e1b6-d053f723cf75-92634bd3 {
-  -ms-grid-column-align: start;
-  justify-self: start;
-}
-
-#w-node-cf1b160d-3fae-c966-1152-4d820429932b-92634bd3 {
-  -ms-grid-column-align: start;
-  justify-self: start;
+#w-node-de5eb708-b6a2-1abc-ab3c-cbbeced0088d-92634bd3 {
+  -ms-grid-row: span 1;
+  grid-row-start: span 1;
+  -ms-grid-row-span: 1;
+  grid-row-end: span 1;
+  -ms-grid-column: span 1;
+  grid-column-start: span 1;
+  -ms-grid-column-span: 1;
+  grid-column-end: span 1;
 }
 
 #w-node-_6af4f13a-c550-07a4-248d-7d518ba92702-92634bd3 {
