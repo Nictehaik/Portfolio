@@ -2589,6 +2589,7 @@ strong {
   align-items: center;
   -ms-grid-columns: 1fr 1fr 1fr 1fr 1fr;
   grid-template-columns: 1fr 1fr 1fr 1fr 1fr;
+  color: transparent;
 }
 
 .div-block-139 {
@@ -2977,6 +2978,11 @@ strong {
     border-style: solid;
     border-width: 1px;
     border-color: #000;
+  }
+
+  .div-block-140 {
+    margin-right: 20px;
+    margin-left: 20px;
   }
 }
 
